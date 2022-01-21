@@ -5,6 +5,8 @@ const path = require('path');
 const layout = require('./views/layout');
 const { db } = require('./models');
 const modelsIndex = require("./models/index");
+const users = require()
+
 
 db.authenticate()
   .then(() => {
